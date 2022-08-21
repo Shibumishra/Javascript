@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Love Calculator</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<style>
+
+</style>
+
+<body>
+    <div class="bg_heart"></div>
+    <div id="preloader">
+        <div class="bg-cover"><img src="https://www.heart2heartrelationships.com/wp-content/uploads/2018/06/heart.gif"
+                class="img-fluid bg-white"></div>
+    </div>
+    <div class="container text-center">
+        <div class="clearfix">
+            <div class="calc col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+                <h2 class="white-text">Love Calculator</h2>
+                <h5 class="white-text">Enter your Names to Check Your LOVE!!!! </h5>
+                <form role="form" class="form-horizontal">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="names" placeholder="Person One" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="names" placeholder="Person Two" />
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-danger pull-right" type="submit" id="submit">Calculate</button>
+                    </div>
+                </form>
+                <p id="warning" class="text-danger"></p>
+                <div id="result" class="text-center"></div>
+            </div>
+        </div>
+    </div>
+    <!-- <script>
+        $(document).ready(function () {
+            $("#preloader")
+                .show()
+                .delay(5000)
+                .fadeOut()
+                .hide("slow");
+        });
+    </script> -->
+</body>
+<script src="/script.js"></script>
+</html>
