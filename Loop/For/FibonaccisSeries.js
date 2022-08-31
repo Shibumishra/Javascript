@@ -37,5 +37,5 @@ function fibonacci2(n){
     }
     return series;
 };
-var output2 = fibonacci1(20);
+var output2 = fibonacci2(20);
 console.log(output2);
