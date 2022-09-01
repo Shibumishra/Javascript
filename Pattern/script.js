@@ -1,5 +1,4 @@
 var rows = prompt("Please enter", "");
-let string = "";
 //calling fun
 printPatter(rows);
 //declare and defined
